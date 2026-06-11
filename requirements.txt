@@ -1,0 +1,42 @@
+# Requirements for Python 3.13.5 compatibility
+# Install with: pip install -r requirements.txt
+
+# Deep Learning
+torch>=2.5.1
+torchvision>=0.20.1
+
+# Segmentation Models
+segmentation-models-pytorch>=0.3.3
+
+# Image Augmentation
+albumentations>=1.4.0
+
+# Computer Vision
+opencv-python>=4.11.0.86a
+Pillow>=11.0.0
+
+# Data & ML
+numpy>=2.1.0
+pandas>=2.2.3
+scikit-learn>=1.5.2
+scipy>=1.14.1
+
+# Visualization
+matplotlib>=3.9.2
+seaborn>=0.13.2
+
+# Progress bars
+tqdm>=4.67.1
+
+# Model Export
+onnx>=1.17.0
+onnxscript>=0.1.0
+
+# Notebook
+jupyter>=1.1.1
+ipykernel>=6.29.5
+ipywidgets>=8.1.5
+
+# Pretrained model backbones (replaces deprecated pretrainedmodels)
+timm>=1.0.9
+    

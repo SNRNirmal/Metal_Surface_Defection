@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS / VS Code
+.vs/
+.vscode/
+*.code-workspace
+
+# PyBuilder
+target/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project-specific output and generated files
+outputs/
+Models/
+ONNX_models/
+*.pth
+*.onnx
+
+# Optionally ignore dataset folders if they are too large
+# (Uncomment below if you don't want to commit data)
+# IMAGES/
+# ANNOTATIONS/
+# Validation_Images/
+# Validation_Annotations/
